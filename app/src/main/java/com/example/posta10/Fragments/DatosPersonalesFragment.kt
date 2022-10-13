@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import com.example.posta10.R
 
 
-class RegistrarseFragment : Fragment() {
+class DatosPersonalesFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,7 +19,7 @@ class RegistrarseFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        return inflater.inflate(R.layout.fragment_registrarse, container, false)
+        return inflater.inflate(R.layout.fragment_datospersonales, container, false)
     }
 
     }
