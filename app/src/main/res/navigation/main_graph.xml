@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/registrarseFragment"
-        android:name="com.example.posta10.Fragments.RegistrarseFragment"
+        android:name="com.example.posta10.Fragments.DatosPersonalesFragment"
         android:label="fragment_registrarse"
-        tools:layout="@layout/fragment_registrarse" />
+        tools:layout="@layout/fragment_datospersonales" />
 </navigation>
