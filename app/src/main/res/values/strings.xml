@@ -6,8 +6,11 @@
     <string name="login">LoGiN</string>
     <string name="registrar">ReGisTrArSe</string>
     <string name="Registro">Registro</string>
+    <string name="dni">DNI</string>
+    <string name="name">Name</string>
 
     <string-array name="TipDni">
+        <item> Seleccione el Tipo de Documento </item>
         <item> DNI </item>
         <item> PASAPORTE </item>
     </string-array>
