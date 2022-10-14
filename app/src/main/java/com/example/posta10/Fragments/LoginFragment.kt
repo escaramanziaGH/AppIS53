@@ -19,7 +19,7 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
 
         binding.botonRegistrarse.setOnClickListener {
             
-            findNavController().navigate(R.id.action_loginFragment_to_registrarseFragment)
+           // findNavController().navigate(R.id.action_loginFragment_to_registrarseFragment)
         }
 
     }
