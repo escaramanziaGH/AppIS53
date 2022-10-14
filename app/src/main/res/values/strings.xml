@@ -8,6 +8,9 @@
     <string name="Registro">Registro</string>
     <string name="dni">DNI</string>
     <string name="name">Name</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="email">Email</string>
+    <string name="contrase_a">Contraseña</string>
 
     <string-array name="TipDni">
         <item> Seleccione el Tipo de Documento </item>
