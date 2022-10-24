@@ -11,6 +11,9 @@
     <string name="ingresar">Ingresar</string>
     <string name="email">Email</string>
     <string name="contrase_a">Contraseña</string>
+    <string name="Email">email</string>
+    <string name="password">Contraseña</string>
+    <string name="Registrarse" />
 
     <string-array name="TipDni">
         <item> Seleccione el Tipo de Documento </item>
