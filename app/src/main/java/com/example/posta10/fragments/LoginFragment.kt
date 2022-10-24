@@ -1,4 +1,4 @@
-package com.example.posta10.Fragments
+package com.example.posta10.fragments
 
 import android.os.Bundle
 import android.view.View

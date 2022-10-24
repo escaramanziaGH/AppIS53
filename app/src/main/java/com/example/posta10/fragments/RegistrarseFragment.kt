@@ -1,4 +1,4 @@
-package com.example.posta10.Fragments
+package com.example.posta10.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,18 +8,19 @@ import android.view.ViewGroup
 import com.example.posta10.R
 
 
-class DatosPersonalesFragment : Fragment() {
+class RegistrarseFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
     }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
-        return inflater.inflate(R.layout.fragment_datospersonales, container, false)
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_registrarse, container, false)
     }
 
-    }
+}
