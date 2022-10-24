@@ -24,3 +24,4 @@ class RegistrarseFragment : Fragment() {
     }
 
 }
+
