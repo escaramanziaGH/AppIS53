@@ -6,7 +6,6 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import com.example.posta10.R
 import com.example.posta10.databinding.FragmentRegistrarseBinding
-import com.google.android.material.snackbar.Snackbar
 
 
 class RegistrarseFragment : Fragment(R.layout.fragment_registrarse) {
@@ -18,9 +17,9 @@ class RegistrarseFragment : Fragment(R.layout.fragment_registrarse) {
         binding = FragmentRegistrarseBinding.bind(view)
 
         binding.btnRegistrar.setOnClickListener {
-          val esvalido = valIng()
-          val mensaje = Snackbar.make(view,"$esvalido", 160 )
-          mensaje.show()
+          valIng()
+          //val mensaje = Snackbar.make(view,"$esvalido", 160 )
+          //mensaje.show()
         }
     }
 
